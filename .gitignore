@@ -74,3 +74,4 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 Content/MetaHumans/Common/Face/Face_Archetype.uasset
 Content/MetaHumans/Vivian/Face/Vivian_FaceMesh.uasset
+Content/Maps/GooseLand_Map.umap
