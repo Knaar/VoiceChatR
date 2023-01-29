@@ -1,0 +1,24 @@
+{
+	"Targets": [
+		{
+			"Name": "VoiceChat",
+			"Path": "U:\\VoiceClientPackagetProjects\\VoiceChatRLast2 — копия\\VoiceChatR\\Source\\VoiceChat.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "VoiceChatClient",
+			"Path": "U:\\VoiceClientPackagetProjects\\VoiceChatRLast2 — копия\\VoiceChatR\\Source\\VoiceChatClient.Target.cs",
+			"Type": "Client"
+		},
+		{
+			"Name": "VoiceChatEditor",
+			"Path": "U:\\VoiceClientPackagetProjects\\VoiceChatRLast2 — копия\\VoiceChatR\\Source\\VoiceChatEditor.Target.cs",
+			"Type": "Editor"
+		},
+		{
+			"Name": "VoiceChatServer",
+			"Path": "U:\\VoiceClientPackagetProjects\\VoiceChatRLast2 — копия\\VoiceChatR\\Source\\VoiceChatServer.Target.cs",
+			"Type": "Server"
+		}
+	]
+}
