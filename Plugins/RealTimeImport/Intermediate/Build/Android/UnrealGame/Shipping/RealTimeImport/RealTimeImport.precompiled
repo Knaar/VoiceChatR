@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.RealTimeImport.cppa8.o",
+		"Module.RealTimeImport.gen.1_of_3.cppa8.o",
+		"Module.RealTimeImport.gen.2_of_3.cppa8.o",
+		"Module.RealTimeImport.gen.3_of_3.cppa8.o"
+	]
+}
