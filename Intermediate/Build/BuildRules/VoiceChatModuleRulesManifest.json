@@ -1,11 +1,17 @@
 {
 	"SourceFiles": [
-		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast2 — копия\\VoiceChatR\\Source\\VoiceChat\\VoiceChat.Build.cs",
-		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast2 — копия\\VoiceChatR\\Plugins\\RealTimeImport\\Source\\RealTimeImport\\RealTimeImport.Build.cs",
-		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast2 — копия\\VoiceChatR\\Source\\VoiceChat.Target.cs",
-		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast2 — копия\\VoiceChatR\\Source\\VoiceChatClient.Target.cs",
-		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast2 — копия\\VoiceChatR\\Source\\VoiceChatEditor.Target.cs",
-		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast2 — копия\\VoiceChatR\\Source\\VoiceChatServer.Target.cs"
+		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast\\VoiceChatR\\Source\\VoiceChat\\VoiceChat.Build.cs",
+		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast\\VoiceChatR\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast\\VoiceChatR\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
+		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast\\VoiceChatR\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
+		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast\\VoiceChatR\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast\\VoiceChatR\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
+		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast\\VoiceChatR\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfo\\RiderShaderInfo.Build.cs",
+		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast\\VoiceChatR\\Plugins\\RealTimeImport\\Source\\RealTimeImport\\RealTimeImport.Build.cs",
+		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast\\VoiceChatR\\Source\\VoiceChat.Target.cs",
+		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast\\VoiceChatR\\Source\\VoiceChatClient.Target.cs",
+		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast\\VoiceChatR\\Source\\VoiceChatEditor.Target.cs",
+		"U:\\VoiceClientPackagetProjects\\VoiceChatRLast\\VoiceChatR\\Source\\VoiceChatServer.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }
