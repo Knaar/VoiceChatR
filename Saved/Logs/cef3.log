@@ -1903,3 +1903,18 @@
 [0203/205031.007:WARNING:dns_config_service_win.cc(700)] Failed to read DnsConfig.
 [0204/160908.421:WARNING:dns_config_service_win.cc(700)] Failed to read DnsConfig.
 [0204/160908.423:WARNING:dns_config_service_win.cc(700)] Failed to read DnsConfig.
+[0205/154616.569:ERROR:device_event_log_impl.cc(208)] [15:46:16.569] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+[0205/154642.956:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0205/154643.033:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0205/154644.627:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0205/154644.627:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0205/154644.714:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0205/154644.717:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0205/154644.930:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0205/154644.930:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0205/154645.339:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0205/154645.339:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0205/154845.009:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0205/154845.082:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0205/155045.984:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0205/155046.055:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -101

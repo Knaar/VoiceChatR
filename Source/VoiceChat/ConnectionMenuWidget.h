@@ -6,12 +6,12 @@
 #include "Blueprint/UserWidget.h"
 #include "ConnectionMenuWidget.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class VOICECHAT_API UConnectionMenuWidget : public UUserWidget
 {
 	GENERATED_BODY()
-	
+public:
+	UFUNCTION(BlueprintPure)
+	TArray<FString> ReadFile(const FString& FileName);
 };
