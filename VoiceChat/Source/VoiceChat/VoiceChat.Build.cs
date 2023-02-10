@@ -17,10 +17,11 @@ public class VoiceChat : ModuleRules
             "MediaAssets",
             "DesktopPlatform",
             "Slate",
+            "Niagara",
             "SlateCore",
             "ImgMedia" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
+		PrivateDependencyModuleNames.AddRange(new string[] { "Niagara" });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
