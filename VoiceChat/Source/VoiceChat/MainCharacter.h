@@ -31,8 +31,20 @@ public:
 		UNiagaraSystem* TraceFX;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Niagara")
+	UNiagaraComponent* TraceVFXComponent;
+	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Niagara")
 		FString TraceTargetName = "TraceTarget";
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Niagara")
+	FString TraceStartName = "TraceStart";
+
 	UFUNCTION(BlueprintCallable)
-		void SpawnTraceFX(const FVector& TraceStart, const FVector& TraceEnd);
+		void SpawnTraceFX(const FVector& TraceStart);
+
+	UFUNCTION(BlueprintCallable,BlueprintPure)
+	UNiagaraComponent* GetComponent(){ return TraceVFXComponent ? TraceVFXComponent : nullptr;}
+	
+	UFUNCTION(BlueprintCallable)
+	void SetStartEndToNiagara(const FVector& TraceStart, const FVector& TraceEnd);
 };

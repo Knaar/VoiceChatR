@@ -35,11 +35,26 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 }
 
-void AMainCharacter::SpawnTraceFX(const FVector& TraceStart, const FVector& TraceEnd)
+void AMainCharacter::SpawnTraceFX(const FVector& TraceStart )
 {
-	const auto TraceVFXComponent = UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), TraceFX, TraceStart);
-	if (TraceVFXComponent)
+	if(!TraceFX)return;
+	TraceVFXComponent = UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), TraceFX, TraceStart);
+	/*
+	* if (TraceVFXComponent)
 	{
 		TraceVFXComponent->SetNiagaraVariableVec3(TraceTargetName, TraceEnd);
 	}
+	 */
+	
+}
+
+
+void AMainCharacter::SetStartEndToNiagara(const FVector& TraceStart, const FVector& TraceEnd)
+{
+	if(TraceVFXComponent)
+	{
+		TraceVFXComponent->SetNiagaraVariableVec3(TraceStartName, TraceStart);
+		TraceVFXComponent->SetNiagaraVariableVec3(TraceTargetName, TraceEnd);
+	}
+	
 }
